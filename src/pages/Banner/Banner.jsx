@@ -2,13 +2,12 @@ import img from '../../assets/Banner.png';
 
 const Banner = () => {
   return (
-    <div className="w-full h-[100vh] sm:h-[80vh]">
-      <div
-        className="w-full h-full bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${img})` }}
-      >
-        
-      </div>
+    <div className="w-full">
+      <img
+        src={img}
+        alt="Banner"
+        className="w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-screen object-cover"
+      />
     </div>
   );
 };
