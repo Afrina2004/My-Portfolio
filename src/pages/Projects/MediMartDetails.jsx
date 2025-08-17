@@ -4,7 +4,6 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { DiMongodb } from "react-icons/di";
 import Navbar from "../Navbar/Navbar"
-import { SiMongoose } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 
 
@@ -36,10 +35,6 @@ const MediMartDetails = () => {
     <FaNodeJs className='text-white text-3xl' />
     <h1 className='text-white text-center mt-2 text-sm'>Node.js</h1>
   </section>
-
- <section className='h-[120px] w-[100px] flex flex-col justify-center items-center'>
-            <SiMongoose  className='text-white  text-3xl' />
-            <h1 className='text-white text-center'>Mongoose</h1></section>
 
   <section className='h-[120px] w-[100px] flex flex-col justify-center items-center'>
       <DiMongodb className='text-white text-3xl' />
