@@ -31,7 +31,7 @@ const Home = () => {
 
       <Navbar />
 
-      <div className="max-w-6xl mx-auto space-y-10 pt-20 ">
+      <div className="max-w-6xl mx-auto space-y-10 pt-12 ">
         
         <section id="introduction">
           <Banner />
